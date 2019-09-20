@@ -24,4 +24,10 @@ ul#menu {
 	padding:15px 0px 0px 0px;
 	text-align:center;
 	text-decoration:none;
+	background-image:url(image/bg_menu1.png);
+	background-repeat:no-repeat;
+}
+#menu li a:hover{
+	background-color:#000066;
+	background-image:url(image/bg_menu2.png);
 }
