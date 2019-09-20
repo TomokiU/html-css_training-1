@@ -5,7 +5,18 @@ body {
 	line-height: 1.5;
 	color:#333333;
 }
+/*=============================================
+main menu
+=============================================*/
+ul#menu {
+	width:960px; height:50px;
+}
 #menu li {
 	list-style-type:none;
 	display:inline;
+	float:left;
+}
+#menu li a {
+	display:block;
+	width:240px; height:35px;
 }
