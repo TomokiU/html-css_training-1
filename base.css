@@ -7,6 +7,7 @@ universal style
 }
 body {
 	background-color:#cccccc;
+	background-image:url("images/bg_body.png");
 	font-size:95%;
 	font-family: Helvetica, "MS ゴシック", ;
 	line-height: 1.5;
