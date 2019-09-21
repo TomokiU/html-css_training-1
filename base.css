@@ -33,6 +33,13 @@ div#header h1 {
 div#header h1 a {text-decoration:none;}
 img {border:0;}
 /*=============================================
+header image
+=============================================*/
+div#img_index {
+	width:960px; height:360px;
+	margin:5px 20px;
+}
+/*=============================================
 main menu
 =============================================*/
 ul#menu {
