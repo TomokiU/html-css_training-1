@@ -20,6 +20,19 @@ div#pagebody {
 	background-repeat:repeat-y;
 }
 /*=============================================
+header
+=============================================*/
+div#header {
+	height:80px;
+}
+div#header h1 {
+	padding: 10px 0px 5px 20px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div#header h1 a {text-decoration:none;}
+img {border:0;}
+/*=============================================
 main menu
 =============================================*/
 ul#menu {
