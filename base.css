@@ -16,6 +16,8 @@ body {
 div#pagebody {
 	width:1000px; margin:0 auto;
 	background-color:#ffffff;
+	background-image:url("images/bg_pagebody.png");
+	background-repeat:repeat-y;
 }
 /*=============================================
 main menu
