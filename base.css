@@ -68,6 +68,9 @@ ul#menu {
 }
 .informing_index {
 	withs:200px; height:150px;
-	mergin: 0px 0px 20px 20px;
+	mergin:0px 0px 20px 20px;
 	float:right;
+}
+hr {
+	clear:both;
 }
