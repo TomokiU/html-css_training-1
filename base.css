@@ -90,6 +90,9 @@ div#submenu ul li a {
 div#submenu ul li:first-child a {
 	border-top:1px dotted gray;
 }
+div#submenu ul li:hover a {
+	text-decoration:underline;
+}
 /*=============================================
 info (right column)
 =============================================*/
