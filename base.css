@@ -69,6 +69,15 @@ ul#menu {
 /*=============================================
 sub menu (left column)
 =============================================*/
+h2 {
+	width:160px; height:43px;
+	padding:17px 0px 0px 100px;
+	font-size: 16px;
+	background-image:url(images/bg_h2.png);
+	background-repeat:no-repeat;
+	background-color:#000033;
+	color:#ffffff;
+}
 div#submenu {
 	width:260px;
 	margin:10px 10px 10px 25px;
@@ -100,7 +109,15 @@ div#info {
 	width:660px;
 	float:left;
 }
-
+h3 {
+	font-size:14px;
+	width:660px;
+	padding:10px 0px 10px 20px;
+	background-color:#003399;
+	color:#ffffff;
+	border-radius:3px;
+	-moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px; -ms-border-radius:3px;
+}
 .informing_index {
 	width:200px; height:150px;
 	margin:0px 0px 20px 20px;
