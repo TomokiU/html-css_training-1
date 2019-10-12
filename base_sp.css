@@ -65,13 +65,13 @@ ul#menu {
 	padding:15px 0px 0px 60px;
 	text-align:center;
 	text-decoration:none;
-	background-image:url(image/icon_menu.png);
+	background-image:url(images/icon_menu.png);
 	background-repeat:no-repeat;
 	font-size:120%;
 }
 #menu li a:hover{
 	background-color:#ffffff;
-	background-image:url(image/icon_menu.png);
+	background-image:url(images/icon_menu.png);
 }
 /*=============================================
 sub menu (left column)
