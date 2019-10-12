@@ -37,11 +37,20 @@ div#header img {
 }
 img {border:0;}
 /*=============================================
+header image
+=============================================*/
+div#img_index {
+	display:none;
+}
+div#img_subpage {
+	display:none;
+}
+/*=============================================
 main menu
 =============================================*/
 ul#menu {
-	width:100%; 
-	margin:0px;
+	width:960px; height:50px; /*240x4=960*/
+	margin:0px 20px;
 }
 #menu li {
 	list-style-type:none;
