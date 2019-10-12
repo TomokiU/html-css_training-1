@@ -1,11 +1,118 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>繧ｦ繧ｧ繝悶し繝ｳ繝励Ν譬ｪ蠑丈ｼ夂､ｾ</title>
+<meta charset="shift_jis">
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="table.css">
+<link rel="stylesheet" href="form.css">
+<title>お問合わせ|ウェブサンプル株式会社</title>
 </head>
 <body>
-<h1>縺雁撫縺�蜷医ｏ縺�</h1>
-<small>Copyright (c) 繧ｦ繧ｧ繝悶し繝ｳ繝励Ν譬ｪ蠑丈ｼ夂､ｾ All Rights Reserved.</small>
+<div id="pagebody">
+
+	<!-- ヘッダー -->
+	<div id="header">
+		<h1><a href="index.html"><img src="images/logo.png" alt="ウェブサンプル株式会社"></a></h1>
+	</div>
+	
+	<!-- メインメニュー -->
+	<ul id="menu">
+	<li><a href="index.html">ホーム</a></li>
+	<li><a href="product.html">製品紹介</a></li>
+	<li><a href="profile.html">会社概要</a></li>
+	<li><a href="contact.html">お問い合せ</a></li>
+	</ul>
+	
+	<!-- ヘッダ画像 -->
+	<div id="img_index">
+		<img src="./images/img_contact.png" alt="お問合せ">
+	</div>
+	<!-- サブメニュー (左カラム)-->
+	<div id="submenu">
+		<h2>お問合せ</h2>
+		<ul>
+			<li><a href="#info0001">フォームからのお問合せ</a></li>
+			<li><a href="#info0002">メールでのお問合せ</a></li>
+			<li><a href="#info0003">お電話でのお問合せ</a></li>
+		</ul>
+	</div>
+		
+	<!-- インフォメーション (右カラム)-->
+	<div id="info">
+		<h3 id="info0001">フォームからのお問合せ</h3>
+			<!-- form mailer-->
+			<form action="https://ssl.form-mailer.jp/fm/service/Forms/confirm" method="post" name="form1" ENCTYPE="multipart/form-data">
+			<input type="hidden" name="key" value="c0130b67639976" >
+			
+			
+			*は必須項目です
+			
+			
+			
+			
+			<!-- radio -->
+			<p>お問合せ区分</p>
+			<p><input name="field_5499514" type="radio" value="0">商品に関するお問合せ
+			<input name="field_5499514" type="radio" value="1">採用に関するお問合せ
+			<input name="field_5499514" type="radio" value="2">その他のお問合せ
+			</p>
+			<!-- text:mail -->
+			<p>*メールアドレス</p>
+			<p><input name="field_5499516" type="text" size="30">
+			</p>
+			<!-- name -->
+			<p>*名前</p>
+			<p>姓
+			<input name="field_5499517_sei" type="text" style="width:100px;">
+			名
+			<input name="field_5499517_mei" type="text" style="width:100px;">
+			</p>
+			<!-- textarea -->
+			<p>お問合せの内容</p>
+			<p>
+			
+			<textarea name="field_5499519" cols="30" rows="5"></textarea>
+			
+			</p>
+			
+			
+			
+			<!-- charset -->
+			<!-- charset -->
+			<!-- paypal no confirm alert -->
+			
+			<!-- paypal no confirm alert -->
+			<p><input name="submit" type="submit" value="確認画面へ">
+			
+			</p>
+			<!-- PayPal Logo -->
+			
+			<!-- PayPal Logo -->
+			<p><a href="https://www.form-mailer.jp/" target="_blank" id="powered">Powered by FormMailer.</a></p>
+			</form>
+			
+			<a href="https://www.form-mailer.jp/?utm_source=usersite&utm_medium=banner&utm_campaign=banner-link-Installation&utm_content=banner_g01.gif" target="_blank"><img src="https://www.form-mailer.jp/img/banner_g01.gif" alt="SSL標準装備の無料メールフォーム作成・管理ツール｜フォームメーラー" border="0" /></a>
+		<hr>
+		
+		<h3 id="info0002">メールでのお問合せ</h3>
+		<p>
+		xxx@xxxxxxxxx.xxx
+		までメールをお送りください。
+		</p>
+		<hr>
+		
+		<h3 id="info0003">お電話でのお問合せ</h3>
+		<img src="images/contact0001.png" alt="電話番号0000-000-000" class="informing_tel">
+		<div class="remarks">
+		<h4>受付時間</h4>
+		受付時間は、平日午前9時から午後5時までとなります。
+		</div>
+		<hr>
+	</div>
+	
+	<!-- フッター -->
+	<div id="footer"><small>Copyright (c) ウェブサンプル株式会社 All Rights Reserved.</small></div>
+
+</div>
 </body>
 </html>
